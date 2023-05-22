@@ -1,0 +1,2635 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.60 f4c14d41",
+  "osm3s": {
+    "timestamp_osm_base": "2023-05-21T22:45:05Z",
+    "timestamp_areas_base": "2023-05-21T17:24:08Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 568195587,
+      "lat": 7.8739505,
+      "lon": -72.5282079,
+      "tags": {
+        "name": "Barrio Belen",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 587507951,
+      "lat": 7.894198,
+      "lon": -72.4758927,
+      "tags": {
+        "name": "Torcoroma",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 587602327,
+      "lat": 7.8841398,
+      "lon": -72.5132062,
+      "tags": {
+        "name": "Miraflores",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 587685572,
+      "lat": 7.9134948,
+      "lon": -72.4656155,
+      "tags": {
+        "name": "El Escobal",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 587710480,
+      "lat": 7.9088937,
+      "lon": -72.5223772,
+      "tags": {
+        "name": "Ciudadela Juan Atalaya",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 592883285,
+      "lat": 7.9386051,
+      "lon": -72.4948379,
+      "tags": {
+        "name": "Urbanización Colinas del Salado",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 829102269,
+      "lat": 7.8800927,
+      "lon": -72.4900194,
+      "tags": {
+        "name": "Urb. San Isidro",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 829102272,
+      "lat": 7.8814793,
+      "lon": -72.4899776,
+      "tags": {
+        "name": "Urb. Rivers Country",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 829102311,
+      "lat": 7.8770667,
+      "lon": -72.4909625,
+      "tags": {
+        "name": "Urb. Mirador Campestre",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 829102314,
+      "lat": 7.8775025,
+      "lon": -72.4898467,
+      "tags": {
+        "name": "Urb. Aquarela",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671812,
+      "lat": 7.8798416,
+      "lon": -72.4989239,
+      "tags": {
+        "name": "Barrio Blanco",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671822,
+      "lat": 7.8973447,
+      "lon": -72.500918,
+      "tags": {
+        "name": "Barrio Lleras",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671823,
+      "lat": 7.8972809,
+      "lon": -72.5054671,
+      "tags": {
+        "name": "Barrio La Merced",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671824,
+      "lat": 7.9067261,
+      "lon": -72.5020113,
+      "tags": {
+        "name": "Zona Industrial",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671838,
+      "lat": 7.8829554,
+      "lon": -72.4951352,
+      "tags": {
+        "amenity": "pub",
+        "name": "Los Caobos;British Pub",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830671842,
+      "lat": 7.8812125,
+      "lon": -72.5032355,
+      "tags": {
+        "name": "Barrio El Contento",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832983085,
+      "lat": 7.9028363,
+      "lon": -72.4843169,
+      "tags": {
+        "name": "Parques Resedenciales",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832983092,
+      "lat": 7.8992392,
+      "lon": -72.4861354,
+      "tags": {
+        "name": "Prados 1",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832983098,
+      "lat": 7.9007259,
+      "lon": -72.48628,
+      "tags": {
+        "name": "Prados 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833097204,
+      "lat": 7.8892633,
+      "lon": -72.4924744,
+      "tags": {
+        "name": "Sayago",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833097210,
+      "lat": 7.8909956,
+      "lon": -72.4903233,
+      "tags": {
+        "name": "La Riviera",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833271430,
+      "lat": 7.901448,
+      "lon": -72.4918987,
+      "tags": {
+        "name": "Govica",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833271435,
+      "lat": 7.9011185,
+      "lon": -72.4982877,
+      "tags": {
+        "name": "La Castellana",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833291400,
+      "lat": 7.9024105,
+      "lon": -72.4866287,
+      "tags": {
+        "name": "Prados Club",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833291409,
+      "lat": 7.9052431,
+      "lon": -72.4871815,
+      "tags": {
+        "name": "San Eduardo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833291412,
+      "lat": 7.8989347,
+      "lon": -72.4985988,
+      "tags": {
+        "name": "Quinta Bosch",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833347766,
+      "lat": 7.8969222,
+      "lon": -72.4899495,
+      "tags": {
+        "name": "Quinta Oriental",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833403415,
+      "lat": 7.8928681,
+      "lon": -72.4951276,
+      "tags": {
+        "name": "Barrio Popular",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439341,
+      "lat": 7.9140946,
+      "lon": -72.4889651,
+      "tags": {
+        "name": "Conjunto Residencial Royal",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439344,
+      "lat": 7.9110182,
+      "lon": -72.4886646,
+      "tags": {
+        "name": "La Mar",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439345,
+      "lat": 7.9090864,
+      "lon": -72.4886778,
+      "tags": {
+        "name": "Ciudad Jardin",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439346,
+      "lat": 7.9070177,
+      "lon": -72.4905181,
+      "tags": {
+        "name": "Los Acacios",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439355,
+      "lat": 7.9167247,
+      "lon": -72.4870017,
+      "tags": {
+        "name": "Niza",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439364,
+      "lat": 7.9178171,
+      "lon": -72.489862,
+      "tags": {
+        "name": "Sta Helena",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439368,
+      "lat": 7.9135898,
+      "lon": -72.486476,
+      "tags": {
+        "name": "Proceres",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439372,
+      "lat": 7.9127513,
+      "lon": -72.4866911,
+      "tags": {
+        "name": "Alcala",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833439374,
+      "lat": 7.9105187,
+      "lon": -72.4860253,
+      "tags": {
+        "name": "Urapanes",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833482372,
+      "lat": 7.905129,
+      "lon": -72.4981923,
+      "tags": {
+        "name": "Ceiba 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833497047,
+      "lat": 7.9099014,
+      "lon": -72.5012074,
+      "tags": {
+        "name": "El Bosque",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833497053,
+      "lat": 7.9134736,
+      "lon": -72.4991711,
+      "tags": {
+        "name": "Portachuelo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833532661,
+      "lat": 7.9021969,
+      "lon": -72.5039004,
+      "tags": {
+        "name": "Pescadero",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603018,
+      "lat": 7.9122234,
+      "lon": -72.5041793,
+      "tags": {
+        "name": "Colinas de la Victoria",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603025,
+      "lat": 7.9135464,
+      "lon": -72.5040398,
+      "tags": {
+        "name": "Carlos Garcia Lozada",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603026,
+      "lat": 7.9130623,
+      "lon": -72.5096029,
+      "tags": {
+        "name": "Rosal del Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603028,
+      "lat": 7.9144815,
+      "lon": -72.5086747,
+      "tags": {
+        "name": "Divino Niño",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603040,
+      "lat": 7.915151,
+      "lon": -72.510917,
+      "tags": {
+        "name": "rafael Nuñez",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603062,
+      "lat": 7.9058207,
+      "lon": -72.5090073,
+      "tags": {
+        "name": "Cerro Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603068,
+      "lat": 7.9066071,
+      "lon": -72.5107132,
+      "tags": {
+        "name": "Las Americas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603078,
+      "lat": 7.9084562,
+      "lon": -72.5091575,
+      "tags": {
+        "name": "Cerro La Cruz",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603081,
+      "lat": 7.9080524,
+      "lon": -72.5141464,
+      "tags": {
+        "name": "Chapinero",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603086,
+      "lat": 7.9138014,
+      "lon": -72.5060354,
+      "tags": {
+        "name": "Maria Paz",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833603103,
+      "lat": 7.9012193,
+      "lon": -72.5099514,
+      "tags": {
+        "name": "Sevilla",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651501,
+      "lat": 7.9181759,
+      "lon": -72.5116484,
+      "tags": {
+        "name": "Simon Bolivar 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651502,
+      "lat": 7.9181244,
+      "lon": -72.5129107,
+      "tags": {
+        "name": "Brisas del Aeropuerto",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651503,
+      "lat": 7.9223412,
+      "lon": -72.5068419,
+      "tags": {
+        "name": "Los Laureles",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651504,
+      "lat": 7.9201115,
+      "lon": -72.5082222,
+      "tags": {
+        "name": "Maria Auxiliadora",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651505,
+      "lat": 7.9194208,
+      "lon": -72.5097135,
+      "tags": {
+        "name": "20 de Diciembre",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651506,
+      "lat": 7.9189639,
+      "lon": -72.5067523,
+      "tags": {
+        "name": "Brisas del Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651507,
+      "lat": 7.9159725,
+      "lon": -72.5064305,
+      "tags": {
+        "name": "Carlos Pizarro",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651508,
+      "lat": 7.9167429,
+      "lon": -72.506409,
+      "tags": {
+        "name": "Cecilia Castro",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651509,
+      "lat": 7.917694,
+      "lon": -72.5049284,
+      "tags": {
+        "name": "Brisas del Paraiso",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651510,
+      "lat": 7.9167642,
+      "lon": -72.5091985,
+      "tags": {
+        "name": "Villas de las Americas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833651511,
+      "lat": 7.9184384,
+      "lon": -72.5078721,
+      "tags": {
+        "name": "Las Americas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833655478,
+      "lat": 7.9178056,
+      "lon": -72.5235108,
+      "tags": {
+        "name": "Barrio Motilones",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833655479,
+      "lat": 7.9304278,
+      "lon": -72.5199863,
+      "tags": {
+        "name": "Barrio Buenos Aires",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833655480,
+      "lat": 7.9245111,
+      "lon": -72.5200412,
+      "tags": {
+        "name": "barrio Ospina Perez",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 833655481,
+      "lat": 7.9337664,
+      "lon": -72.5204316,
+      "tags": {
+        "name": "Barrio la Hermita",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834649205,
+      "lat": 7.8943833,
+      "lon": -72.4812407,
+      "tags": {
+        "name": "San Luis",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834649215,
+      "lat": 7.8819493,
+      "lon": -72.4731834,
+      "tags": {
+        "name": "Aguas Calientes",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834653053,
+      "lat": 7.8895479,
+      "lon": -72.477432,
+      "tags": {
+        "name": "Libertad",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834840040,
+      "lat": 7.8876216,
+      "lon": -72.4686367,
+      "tags": {
+        "name": "Valle Esther",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834885529,
+      "lat": 7.8922995,
+      "lon": -72.4757607,
+      "tags": {
+        "name": "San Jose",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834885530,
+      "lat": 7.8845033,
+      "lon": -72.4660108,
+      "tags": {
+        "name": "Policarpa",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834885531,
+      "lat": 7.890477,
+      "lon": -72.4743552,
+      "tags": {
+        "name": "Aniversario 1",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834885533,
+      "lat": 7.9035757,
+      "lon": -72.4794168,
+      "tags": {
+        "name": "Villa Camila",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834894911,
+      "lat": 7.9011846,
+      "lon": -72.4757047,
+      "tags": {
+        "name": "Altos Pamplonita",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834894912,
+      "lat": 7.9115755,
+      "lon": -72.4727102,
+      "tags": {
+        "name": "Urb. Prados del Este",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834894913,
+      "lat": 7.9080687,
+      "lon": -72.4753399,
+      "tags": {
+        "name": "Terranova",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901560,
+      "lat": 7.9098561,
+      "lon": -72.4640853,
+      "tags": {
+        "name": "Postobon",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901561,
+      "lat": 7.9159688,
+      "lon": -72.4654809,
+      "tags": {
+        "name": "Nuevo Escobal",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901562,
+      "lat": 7.9128316,
+      "lon": -72.4649758,
+      "tags": {
+        "name": "viejo Escobal",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901563,
+      "lat": 7.9134905,
+      "lon": -72.4627871,
+      "tags": {
+        "name": "la Isla de la Fantasia",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901564,
+      "lat": 7.9113216,
+      "lon": -72.4646743,
+      "tags": {
+        "name": "Villas de San Diego",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901565,
+      "lat": 7.905616,
+      "lon": -72.4715097,
+      "tags": {
+        "name": "San Martin",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834901566,
+      "lat": 7.9106213,
+      "lon": -72.4672718,
+      "tags": {
+        "name": "La Alameda",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834903007,
+      "lat": 7.9063538,
+      "lon": -72.467006,
+      "tags": {
+        "name": "Higueron",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834903008,
+      "lat": 7.9048979,
+      "lon": -72.4668558,
+      "tags": {
+        "name": "13 de marzo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834903009,
+      "lat": 7.9001644,
+      "lon": -72.4673684,
+      "tags": {
+        "name": "Caña Fistolo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834903010,
+      "lat": 7.9019171,
+      "lon": -72.4692588,
+      "tags": {
+        "name": "San Martin 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834932494,
+      "lat": 7.9121165,
+      "lon": -72.5215275,
+      "tags": {
+        "name": "Los Comuneros",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 834951739,
+      "lat": 7.9109688,
+      "lon": -72.529381,
+      "tags": {
+        "name": "IDEMA",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987340,
+      "lat": 7.9005549,
+      "lon": -72.5350423,
+      "tags": {
+        "name": "Belisario Betancourt",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987341,
+      "lat": 7.8953535,
+      "lon": -72.5423751,
+      "tags": {
+        "name": "Nuevo Horizonte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987342,
+      "lat": 7.8907142,
+      "lon": -72.5424667,
+      "tags": {
+        "name": "Minuto de Dios",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987343,
+      "lat": 7.8932116,
+      "lon": -72.5444783,
+      "tags": {
+        "name": "La Coralina",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987344,
+      "lat": 7.9097929,
+      "lon": -72.5373967,
+      "tags": {
+        "name": "Antonia Santos",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987345,
+      "lat": 7.8997897,
+      "lon": -72.5266953,
+      "tags": {
+        "name": "7 de Agosto",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987346,
+      "lat": 7.8967292,
+      "lon": -72.5256438,
+      "tags": {
+        "name": "Carlos ramirez Paris",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987347,
+      "lat": 7.894083,
+      "lon": -72.520943,
+      "tags": {
+        "name": "El Desierto",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987348,
+      "lat": 7.8919648,
+      "lon": -72.5292117,
+      "tags": {
+        "name": "Doña Nidia",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987349,
+      "lat": 7.897303,
+      "lon": -72.5307937,
+      "tags": {
+        "name": "Niña Ceci",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987350,
+      "lat": 7.9066973,
+      "lon": -72.5234766,
+      "tags": {
+        "name": "Atalaya Etapa 1",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987351,
+      "lat": 7.9042956,
+      "lon": -72.516181,
+      "tags": {
+        "name": "La Victoria",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987352,
+      "lat": 7.9032754,
+      "lon": -72.5189491,
+      "tags": {
+        "name": "Atalaya Etapa 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987353,
+      "lat": 7.8992584,
+      "lon": -72.5193782,
+      "tags": {
+        "name": "Los Almendros",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987354,
+      "lat": 7.9027015,
+      "lon": -72.5222965,
+      "tags": {
+        "name": "Cucuta 75",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835987355,
+      "lat": 7.9073349,
+      "lon": -72.5329395,
+      "tags": {
+        "name": "Palmeras",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835999352,
+      "lat": 7.9138384,
+      "lon": -72.5327678,
+      "tags": {
+        "name": "Tucunare",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 835999357,
+      "lat": 7.9209901,
+      "lon": -72.5452669,
+      "tags": {
+        "name": "El Progreso",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836006483,
+      "lat": 7.8776956,
+      "lon": -72.4866182,
+      "tags": {
+        "name": "Bogota",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836006484,
+      "lat": 7.8821597,
+      "lon": -72.4847814,
+      "tags": {
+        "name": "San Mateo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836006485,
+      "lat": 7.877313,
+      "lon": -72.478872,
+      "tags": {
+        "name": "Bella Vista",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836007815,
+      "lat": 7.8801718,
+      "lon": -72.4676389,
+      "tags": {
+        "name": "La Carolina",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836007816,
+      "lat": 7.8963997,
+      "lon": -72.4671775,
+      "tags": {
+        "name": "La Union",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836007817,
+      "lat": 7.8903847,
+      "lon": -72.4643022,
+      "tags": {
+        "name": "Santa Ana",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836007818,
+      "lat": 7.8873666,
+      "lon": -72.4629933,
+      "tags": {
+        "name": "Las Margaritas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846292345,
+      "lat": 7.8686441,
+      "lon": -72.4985016,
+      "tags": {
+        "name": "La Rinconada",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846292347,
+      "lat": 7.8750771,
+      "lon": -72.5346344,
+      "tags": {
+        "name": "Divina Pastora",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846300157,
+      "lat": 7.8765968,
+      "lon": -72.5235194,
+      "tags": {
+        "name": "Gaitan",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846300158,
+      "lat": 7.8792431,
+      "lon": -72.5203758,
+      "tags": {
+        "name": "Magdalena",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846323979,
+      "lat": 7.8761505,
+      "lon": -72.5123614,
+      "tags": {
+        "name": "Alfonso Lopez",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846323987,
+      "lat": 7.8750665,
+      "lon": -72.515344,
+      "tags": {
+        "name": "Galan",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846323999,
+      "lat": 7.8770703,
+      "lon": -72.507298,
+      "tags": {
+        "name": "Cuberos Niño",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324004,
+      "lat": 7.8745563,
+      "lon": -72.5043577,
+      "tags": {
+        "name": "Santo Domingo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324033,
+      "lat": 7.8852319,
+      "lon": -72.5157168,
+      "tags": {
+        "name": "Cundinamarca",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324058,
+      "lat": 7.870369,
+      "lon": -72.5257295,
+      "tags": {
+        "name": "Barrio Nuevo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324078,
+      "lat": 7.8708154,
+      "lon": -72.5194424,
+      "tags": {
+        "name": "Santander",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324093,
+      "lat": 7.8788711,
+      "lon": -72.5164813,
+      "tags": {
+        "name": "San Jose",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324106,
+      "lat": 7.878361,
+      "lon": -72.5132411,
+      "tags": {
+        "name": "Circunvalacion",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324128,
+      "lat": 7.8978303,
+      "lon": -72.5151509,
+      "tags": {
+        "name": "Pueblo Nuevo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324140,
+      "lat": 7.8944463,
+      "lon": -72.5110905,
+      "tags": {
+        "name": "Carora",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324152,
+      "lat": 7.890261,
+      "lon": -72.5144026,
+      "tags": {
+        "name": "Loma de bolivar",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846324157,
+      "lat": 7.8905082,
+      "lon": -72.5190883,
+      "tags": {
+        "name": "28 de Febrero",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846337388,
+      "lat": 7.8825356,
+      "lon": -72.52892,
+      "tags": {
+        "name": "Rudesindo Soto",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031351,
+      "lat": 7.9405497,
+      "lon": -72.5011894,
+      "tags": {
+        "name": "Virgilio Barco",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031352,
+      "lat": 7.9471271,
+      "lon": -72.5070044,
+      "tags": {
+        "name": "Trigal del Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031354,
+      "lat": 7.9408366,
+      "lon": -72.5046226,
+      "tags": {
+        "name": "Barrio Obrero Park",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031356,
+      "lat": 7.9382651,
+      "lon": -72.5043651,
+      "tags": {
+        "name": "Estacion del Salado",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031357,
+      "lat": 7.9502298,
+      "lon": -72.5164243,
+      "tags": {
+        "name": "Molinos del Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031362,
+      "lat": 7.9333983,
+      "lon": -72.5022944,
+      "tags": {
+        "name": "Panamericano",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031364,
+      "lat": 7.9364786,
+      "lon": -72.4994969,
+      "tags": {
+        "name": "Colinas Salado",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031365,
+      "lat": 7.9344928,
+      "lon": -72.4974879,
+      "tags": {
+        "name": "El Salado",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031366,
+      "lat": 7.9445131,
+      "lon": -72.5012537,
+      "tags": {
+        "name": "La Concordia",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031369,
+      "lat": 7.9503892,
+      "lon": -72.5222179,
+      "tags": {
+        "name": "Simon Bolivar",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031371,
+      "lat": 7.9469571,
+      "lon": -72.5171324,
+      "tags": {
+        "name": "Caño Limon",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031374,
+      "lat": 7.9405816,
+      "lon": -72.512798,
+      "tags": {
+        "name": "Toledo Plata",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031376,
+      "lat": 7.9430468,
+      "lon": -72.5108668,
+      "tags": {
+        "name": "Alosito",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847031377,
+      "lat": 7.9414263,
+      "lon": -72.5078144,
+      "tags": {
+        "name": "Brisas del Porvenir",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 847052523,
+      "lat": 7.9270864,
+      "lon": -72.4998483,
+      "tags": {
+        "name": "La Insula",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 848733141,
+      "lat": 7.9321379,
+      "lon": -72.494171,
+      "tags": {
+        "name": "Garcia Herreros",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 851091587,
+      "lat": 7.9176951,
+      "lon": -72.5351806,
+      "tags": {
+        "name": "La Primavera",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 851091591,
+      "lat": 7.9160054,
+      "lon": -72.5160833,
+      "tags": {
+        "name": "La Laguna",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 869738564,
+      "lat": 7.8786625,
+      "lon": -72.490046,
+      "tags": {
+        "name": "Alta Vista",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600619,
+      "lat": 7.9211167,
+      "lon": -72.4873781,
+      "tags": {
+        "name": "Urb. Nueva Niza",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600627,
+      "lat": 7.8734596,
+      "lon": -72.5355038,
+      "tags": {
+        "name": "Brisas de los Andes",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600629,
+      "lat": 7.8911508,
+      "lon": -72.53966,
+      "tags": {
+        "name": "Tercer de Mayo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600631,
+      "lat": 7.9025317,
+      "lon": -72.5450333,
+      "tags": {
+        "name": "Sabana Verde",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600632,
+      "lat": 7.9053374,
+      "lon": -72.5364202,
+      "tags": {
+        "name": "Ciudadella El Progreso",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600634,
+      "lat": 7.8769353,
+      "lon": -72.540191,
+      "tags": {
+        "name": "Manuel Beltran",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600638,
+      "lat": 7.877117,
+      "lon": -72.5382653,
+      "tags": {
+        "name": "Barrio Valles del Rodeo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600644,
+      "lat": 7.9256729,
+      "lon": -72.4870108,
+      "tags": {
+        "name": "Vegas del Rio",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600645,
+      "lat": 7.8956716,
+      "lon": -72.538334,
+      "tags": {
+        "name": "Nueva Esperanza",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600646,
+      "lat": 7.8895578,
+      "lon": -72.5404058,
+      "tags": {
+        "name": "Juan Pablo II",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600648,
+      "lat": 7.9251174,
+      "lon": -72.546787,
+      "tags": {
+        "name": "San Geronimo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600653,
+      "lat": 7.8750988,
+      "lon": -72.4989109,
+      "tags": {
+        "name": "El Rosal",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600656,
+      "lat": 7.9399961,
+      "lon": -72.5280863,
+      "tags": {
+        "name": "Escalabrini",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600661,
+      "lat": 7.8745563,
+      "lon": -72.5222068,
+      "tags": {
+        "name": "La Magdalena",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600664,
+      "lat": 7.8708853,
+      "lon": -72.5355271,
+      "tags": {
+        "name": "Las Delicias",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600667,
+      "lat": 7.9228269,
+      "lon": -72.5289786,
+      "tags": {
+        "name": "La Florida",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600670,
+      "lat": 7.9063981,
+      "lon": -72.4785015,
+      "tags": {
+        "name": "Villa Paola",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600671,
+      "lat": 7.9267947,
+      "lon": -72.5269574,
+      "tags": {
+        "name": "El Paraiso",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600672,
+      "lat": 7.8722706,
+      "lon": -72.5096557,
+      "tags": {
+        "name": "Cuberos Niño",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600673,
+      "lat": 7.8698463,
+      "lon": -72.5233139,
+      "tags": {
+        "name": "Cañaveral",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1412600674,
+      "lat": 7.8804083,
+      "lon": -72.5379971,
+      "tags": {
+        "name": "Geronimo Uribe",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1469496831,
+      "lat": 7.9081955,
+      "lon": -72.485666,
+      "tags": {
+        "name": "Urb. Manolo Lemus",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1475245050,
+      "lat": 7.9004065,
+      "lon": -72.4702207,
+      "tags": {
+        "name": "Siglo XXI",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1475245051,
+      "lat": 7.8968783,
+      "lon": -72.4700062,
+      "tags": {
+        "name": "Torcoroma 3",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1475245052,
+      "lat": 7.8949123,
+      "lon": -72.4722431,
+      "tags": {
+        "name": "Torcoroma 2",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1493693937,
+      "lat": 7.8823732,
+      "lon": -72.4894823,
+      "tags": {
+        "name": "Urb. Portobello",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1515942452,
+      "lat": 7.9064387,
+      "lon": -72.486079,
+      "tags": {
+        "name": "Las Almeidas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2336662746,
+      "lat": 7.9246909,
+      "lon": -72.5040908,
+      "tags": {
+        "name": "Barrio Panamericano",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2982048915,
+      "lat": 7.9198174,
+      "lon": -72.5269965,
+      "tags": {
+        "estrato": "2",
+        "name": "Ospina Pérez",
+        "note": "DMLMDALMLDLD",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2982110806,
+      "lat": 7.9219591,
+      "lon": -72.5326011,
+      "tags": {
+        "estrato": "1",
+        "name": "La Primavera",
+        "note": "Tiene varios problemas.",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3077718527,
+      "lat": 7.9021118,
+      "lon": -72.463697,
+      "tags": {
+        "name": "Conjunto cerrado Santillana",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3077720661,
+      "lat": 7.8999651,
+      "lon": -72.463681,
+      "tags": {
+        "name": "Heliopolis",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3158574838,
+      "lat": 7.8890752,
+      "lon": -72.5005675,
+      "tags": {
+        "name": "Barrio latino",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3232783930,
+      "lat": 7.9129621,
+      "lon": -72.5281903,
+      "tags": {
+        "name": "Claret",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3327222482,
+      "lat": 7.9011212,
+      "lon": -72.5401821,
+      "tags": {
+        "name": "Los estoraques",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3762125172,
+      "lat": 7.9182716,
+      "lon": -72.4996894,
+      "tags": {
+        "amenity": "parking",
+        "name": "Zulima",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4321422094,
+      "lat": 7.9428654,
+      "lon": -72.5116678,
+      "tags": {
+        "name": "Barrio Florida Blanca",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4398411644,
+      "lat": 7.8801781,
+      "lon": -72.4999404,
+      "tags": {
+        "name": "CONJUNTO CERRADO",
+        "place": "neighbourhood",
+        "population": "30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4534557492,
+      "lat": 7.9010056,
+      "lon": -72.5121138,
+      "tags": {
+        "name": "Barrio 6 de Enero",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4672299391,
+      "lat": 7.8981792,
+      "lon": -72.4936962,
+      "tags": {
+        "name": "Quinta Oriental",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4672299392,
+      "lat": 7.9537278,
+      "lon": -72.4810989,
+      "tags": {
+        "name": "Barrio El Cerrito",
+        "name:es": "Barrio El Cerrito",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4703861594,
+      "lat": 7.8974624,
+      "lon": -72.4654437,
+      "tags": {
+        "name": "Barrio Maria Auxiliadora",
+        "name:es": "Barrio Maria Auxiliadora",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4712606190,
+      "lat": 7.8772624,
+      "lon": -72.5344673,
+      "tags": {
+        "name": "Belen de Ungria",
+        "name:es": "Belen de Ungria",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723923590,
+      "lat": 7.8710665,
+      "lon": -72.5225303,
+      "tags": {
+        "name": "Colinas",
+        "name:es": "Colinas",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4747322322,
+      "lat": 7.9293822,
+      "lon": -72.4920061,
+      "tags": {
+        "name": "Los Azafranes",
+        "name:es": "Los Azafranes",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4994948021,
+      "lat": 7.8690541,
+      "lon": -72.5301572,
+      "tags": {
+        "name": "Villas de Bele",
+        "name:es": "Villas de Bele",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6584568707,
+      "lat": 7.910556,
+      "lon": -72.5091111,
+      "tags": {
+        "name": "María de la Paz",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6788806409,
+      "lat": 7.9220351,
+      "lon": -72.496406,
+      "tags": {
+        "name": "Zona franca",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7170121659,
+      "lat": 7.9019652,
+      "lon": -72.5214957,
+      "tags": {
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10572831606,
+      "lat": 7.8767476,
+      "lon": -72.5030835,
+      "tags": {
+        "name": "Barrio La Cabrera",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10589348923,
+      "lat": 7.891707,
+      "lon": -72.5477996,
+      "tags": {
+        "name": "Barrio El Rodeo",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10897683420,
+      "lat": 7.8701252,
+      "lon": -72.5114071,
+      "tags": {
+        "name": "Nueva Alianza",
+        "place": "neighbourhood",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310451666,
+      "nodes": [
+        829187979,
+        3195074380,
+        3195074379,
+        829187976,
+        833097329,
+        833097331,
+        833097589,
+        833097592,
+        833097571,
+        3158898653,
+        3158898656,
+        833097543,
+        9404005752,
+        1467263543,
+        3158744612,
+        1467263506,
+        833064658,
+        833064653,
+        3158744613,
+        1467757795,
+        833065264,
+        833065227,
+        1467757815,
+        3159340496,
+        3159507114,
+        833065198,
+        3159340504,
+        3158744614,
+        3159340511,
+        3158744615,
+        3159340510,
+        3159340509,
+        3159340508,
+        3159340513,
+        3159340512,
+        3159340507,
+        3159340506,
+        3159340505,
+        1467757829,
+        3159340498,
+        3159340497,
+        1467757813,
+        833065223,
+        833065251,
+        833065256,
+        833064966,
+        833065057,
+        833065079,
+        833065086,
+        833064827,
+        3159621878,
+        833064890,
+        833064560,
+        1467768063,
+        1467768011,
+        1467768001,
+        1467263408,
+        1467284442,
+        1467284456,
+        829187979
+      ],
+      "tags": {
+        "name": "COLSAG",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916883534,
+      "nodes": [
+        8515843488,
+        1467237256,
+        830555472,
+        830555480,
+        9299959209,
+        8515843490,
+        8515843491,
+        8515859742,
+        8515869929,
+        8515869930,
+        8519435683,
+        8515843492,
+        8519435684,
+        8515843493,
+        1477242772,
+        9302653944,
+        9302653943,
+        8515843495,
+        8515843488
+      ],
+      "tags": {
+        "name": "Urbanización Prados del Norte",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 829187976,
+      "lat": 7.8900732,
+      "lon": -72.4908322
+    },
+    {
+      "type": "node",
+      "id": 833097329,
+      "lat": 7.8906992,
+      "lon": -72.4908668
+    },
+    {
+      "type": "node",
+      "id": 833097331,
+      "lat": 7.8913171,
+      "lon": -72.4909874
+    },
+    {
+      "type": "node",
+      "id": 833097543,
+      "lat": 7.8933856,
+      "lon": -72.4914846
+    },
+    {
+      "type": "node",
+      "id": 833097571,
+      "lat": 7.8921068,
+      "lon": -72.4912005
+    },
+    {
+      "type": "node",
+      "id": 833097589,
+      "lat": 7.8913695,
+      "lon": -72.4909956
+    },
+    {
+      "type": "node",
+      "id": 833097592,
+      "lat": 7.8919754,
+      "lon": -72.4911805
+    },
+    {
+      "type": "node",
+      "id": 3158898653,
+      "lat": 7.8921443,
+      "lon": -72.4912172
+    },
+    {
+      "type": "node",
+      "id": 3158898656,
+      "lat": 7.8922354,
+      "lon": -72.4912342
+    },
+    {
+      "type": "node",
+      "id": 829187979,
+      "lat": 7.8900238,
+      "lon": -72.4885019
+    },
+    {
+      "type": "node",
+      "id": 833064560,
+      "lat": 7.8923035,
+      "lon": -72.4869746
+    },
+    {
+      "type": "node",
+      "id": 833064890,
+      "lat": 7.8928241,
+      "lon": -72.4867925
+    },
+    {
+      "type": "node",
+      "id": 1467263408,
+      "lat": 7.8917297,
+      "lon": -72.4872961
+    },
+    {
+      "type": "node",
+      "id": 1467284442,
+      "lat": 7.891664,
+      "lon": -72.4873468
+    },
+    {
+      "type": "node",
+      "id": 1467284456,
+      "lat": 7.8907945,
+      "lon": -72.4879795
+    },
+    {
+      "type": "node",
+      "id": 1467768001,
+      "lat": 7.8917651,
+      "lon": -72.4872842
+    },
+    {
+      "type": "node",
+      "id": 1467768011,
+      "lat": 7.891882,
+      "lon": -72.4872145
+    },
+    {
+      "type": "node",
+      "id": 1467768063,
+      "lat": 7.8922539,
+      "lon": -72.4870107
+    },
+    {
+      "type": "node",
+      "id": 3159621878,
+      "lat": 7.8932443,
+      "lon": -72.4866892
+    },
+    {
+      "type": "node",
+      "id": 3195074379,
+      "lat": 7.8900378,
+      "lon": -72.4891602
+    },
+    {
+      "type": "node",
+      "id": 3195074380,
+      "lat": 7.8900329,
+      "lon": -72.4889292
+    },
+    {
+      "type": "node",
+      "id": 1467263543,
+      "lat": 7.8945324,
+      "lon": -72.4897767
+    },
+    {
+      "type": "node",
+      "id": 9404005752,
+      "lat": 7.8945563,
+      "lon": -72.4898571
+    },
+    {
+      "type": "node",
+      "id": 833064653,
+      "lat": 7.8952804,
+      "lon": -72.4882369
+    },
+    {
+      "type": "node",
+      "id": 833064658,
+      "lat": 7.8950072,
+      "lon": -72.488772
+    },
+    {
+      "type": "node",
+      "id": 833064827,
+      "lat": 7.8938412,
+      "lon": -72.4865425
+    },
+    {
+      "type": "node",
+      "id": 833064966,
+      "lat": 7.8954772,
+      "lon": -72.4861105
+    },
+    {
+      "type": "node",
+      "id": 833065057,
+      "lat": 7.8949419,
+      "lon": -72.4862402
+    },
+    {
+      "type": "node",
+      "id": 833065079,
+      "lat": 7.8944446,
+      "lon": -72.486376
+    },
+    {
+      "type": "node",
+      "id": 833065086,
+      "lat": 7.8939022,
+      "lon": -72.4865257
+    },
+    {
+      "type": "node",
+      "id": 833065198,
+      "lat": 7.8971008,
+      "lon": -72.4862971
+    },
+    {
+      "type": "node",
+      "id": 833065223,
+      "lat": 7.8960843,
+      "lon": -72.4859588
+    },
+    {
+      "type": "node",
+      "id": 833065227,
+      "lat": 7.8961028,
+      "lon": -72.4870624
+    },
+    {
+      "type": "node",
+      "id": 833065251,
+      "lat": 7.8960371,
+      "lon": -72.4859707
+    },
+    {
+      "type": "node",
+      "id": 833065256,
+      "lat": 7.8955462,
+      "lon": -72.4860938
+    },
+    {
+      "type": "node",
+      "id": 833065264,
+      "lat": 7.8960378,
+      "lon": -72.4871601
+    },
+    {
+      "type": "node",
+      "id": 1467263506,
+      "lat": 7.8949717,
+      "lon": -72.4888756
+    },
+    {
+      "type": "node",
+      "id": 1467757795,
+      "lat": 7.8956259,
+      "lon": -72.4876386
+    },
+    {
+      "type": "node",
+      "id": 1467757813,
+      "lat": 7.8963779,
+      "lon": -72.4858863
+    },
+    {
+      "type": "node",
+      "id": 1467757815,
+      "lat": 7.8965696,
+      "lon": -72.486659
+    },
+    {
+      "type": "node",
+      "id": 1467757829,
+      "lat": 7.8971556,
+      "lon": -72.4856901
+    },
+    {
+      "type": "node",
+      "id": 3158744612,
+      "lat": 7.8947834,
+      "lon": -72.4893416
+    },
+    {
+      "type": "node",
+      "id": 3158744613,
+      "lat": 7.8956213,
+      "lon": -72.487644
+    },
+    {
+      "type": "node",
+      "id": 3158744614,
+      "lat": 7.8972774,
+      "lon": -72.4861406
+    },
+    {
+      "type": "node",
+      "id": 3158744615,
+      "lat": 7.8974286,
+      "lon": -72.4859645
+    },
+    {
+      "type": "node",
+      "id": 3159340496,
+      "lat": 7.8966774,
+      "lon": -72.4865859
+    },
+    {
+      "type": "node",
+      "id": 3159340497,
+      "lat": 7.8966166,
+      "lon": -72.4858253
+    },
+    {
+      "type": "node",
+      "id": 3159340498,
+      "lat": 7.897101,
+      "lon": -72.4857038
+    },
+    {
+      "type": "node",
+      "id": 3159340504,
+      "lat": 7.8971581,
+      "lon": -72.4862463
+    },
+    {
+      "type": "node",
+      "id": 3159340505,
+      "lat": 7.8972286,
+      "lon": -72.4856823
+    },
+    {
+      "type": "node",
+      "id": 3159340506,
+      "lat": 7.8973027,
+      "lon": -72.4856932
+    },
+    {
+      "type": "node",
+      "id": 3159340507,
+      "lat": 7.8973765,
+      "lon": -72.4857217
+    },
+    {
+      "type": "node",
+      "id": 3159340508,
+      "lat": 7.8974464,
+      "lon": -72.4858324
+    },
+    {
+      "type": "node",
+      "id": 3159340509,
+      "lat": 7.8974497,
+      "lon": -72.4858845
+    },
+    {
+      "type": "node",
+      "id": 3159340510,
+      "lat": 7.8974429,
+      "lon": -72.4859219
+    },
+    {
+      "type": "node",
+      "id": 3159340511,
+      "lat": 7.8974001,
+      "lon": -72.4860197
+    },
+    {
+      "type": "node",
+      "id": 3159340512,
+      "lat": 7.8974131,
+      "lon": -72.4857421
+    },
+    {
+      "type": "node",
+      "id": 3159340513,
+      "lat": 7.8974363,
+      "lon": -72.4857826
+    },
+    {
+      "type": "node",
+      "id": 3159507114,
+      "lat": 7.8966939,
+      "lon": -72.4865773
+    },
+    {
+      "type": "node",
+      "id": 8515843495,
+      "lat": 7.9154483,
+      "lon": -72.5025826
+    },
+    {
+      "type": "node",
+      "id": 1477242772,
+      "lat": 7.9148617,
+      "lon": -72.4999544
+    },
+    {
+      "type": "node",
+      "id": 8515843492,
+      "lat": 7.9144937,
+      "lon": -72.4983505
+    },
+    {
+      "type": "node",
+      "id": 8515843493,
+      "lat": 7.9147194,
+      "lon": -72.4990085
+    },
+    {
+      "type": "node",
+      "id": 8515859742,
+      "lat": 7.9142503,
+      "lon": -72.4964834
+    },
+    {
+      "type": "node",
+      "id": 8515869929,
+      "lat": 7.9142556,
+      "lon": -72.4965256
+    },
+    {
+      "type": "node",
+      "id": 8515869930,
+      "lat": 7.9144691,
+      "lon": -72.4982154
+    },
+    {
+      "type": "node",
+      "id": 8519435683,
+      "lat": 7.9144888,
+      "lon": -72.4983233
+    },
+    {
+      "type": "node",
+      "id": 8519435684,
+      "lat": 7.9146975,
+      "lon": -72.4989445
+    },
+    {
+      "type": "node",
+      "id": 9302653943,
+      "lat": 7.9151268,
+      "lon": -72.5012988
+    },
+    {
+      "type": "node",
+      "id": 9302653944,
+      "lat": 7.9151,
+      "lon": -72.5011997
+    },
+    {
+      "type": "node",
+      "id": 830555472,
+      "lat": 7.9174859,
+      "lon": -72.4927077
+    },
+    {
+      "type": "node",
+      "id": 830555480,
+      "lat": 7.9173375,
+      "lon": -72.4924837
+    },
+    {
+      "type": "node",
+      "id": 1467237256,
+      "lat": 7.9194559,
+      "lon": -72.4956804
+    },
+    {
+      "type": "node",
+      "id": 8515843490,
+      "lat": 7.9142499,
+      "lon": -72.494949
+    },
+    {
+      "type": "node",
+      "id": 8515843491,
+      "lat": 7.9140716,
+      "lon": -72.495069
+    },
+    {
+      "type": "node",
+      "id": 9299959209,
+      "lat": 7.9170426,
+      "lon": -72.4920425
+    },
+    {
+      "type": "node",
+      "id": 8515843488,
+      "lat": 7.9212873,
+      "lon": -72.5011763
+    }
+  ]
+}

@@ -3,6 +3,7 @@ const app = express();
 const registro = require('./routes/registro');
 const login = require('./routes/login');
 const perfil = require('./routes/perfil');
+const admin = require('./routes/admin');
 const session = require('express-session');
 
 app.use(session({
@@ -26,7 +27,7 @@ app.use('/', require('./router'));
 app.use('/registro', registro);
 app.use('/login', login);
 app.use('/perfil', perfil);
-
+app.use('/admin', admin);
 
 app.listen(3000, ()=>{
     console.log('SERVER corriendo en http://localhost:3000');
