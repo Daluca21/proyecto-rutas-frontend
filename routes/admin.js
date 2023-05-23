@@ -21,8 +21,10 @@ router.post('/', (req, res) => {
             req.session.id = response.data.data.id;
             req.session.user = response.data.data;
             req.session.admin = true; //Identifica si la sesion es de un admin
+            req.session.sadmin = response.data.data.superadmin;
             console.log(response.data.data);
-            res.redirect('/admin/dashboard'); //Redirige al Dashboard
+            if(req.session.sadmin) res.redirect('/sadmin'); //Redirige al Dashboard
+            else res.redirect('/admin/dashboard');
         } else {
             res.render('login_admin', { mensaje: 'Credenciales inválidas' });
         }

@@ -44,6 +44,18 @@ router.get('/perfil', verificarAutenticacion, (req, res) => {
     res.render('perfil', {usuario: user});
 });
 
+router.get('/', (req,res)=>{
+  const direccionRuta = "http://localhost:8080/ruta";
+  const loginOn = req.session.loggedIn || null
+  axios.get(direccionRuta + "/all") //Ajustar para obtener por empresa
+    .then(response => {
+        res.render('index', { rutas: response.data, loginOn });
+    })
+    .catch(error => {
+      res.render('index', { rutas: null, loginOn });
+    })
+});
+
 router.get('/logout', (req, res) => {
     req.session.destroy(err => {
       if (err) {

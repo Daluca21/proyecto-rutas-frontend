@@ -30,14 +30,12 @@
           </div>
         </div>
       </nav>
-
-      
       <div class="container">
           <h1>Perfil de Usuario</h1>
           <p>Nombre: <%= usuario.nombre %></p>
           <p>Apellido: <%= usuario.apellido %></p>
           <p>Correo electrónico: <%= usuario.correo %></p>
-          <form action="/logout" method="POST">
+          <form action="/logout" method="GET">
             <button type="submit">Cerrar Sesion</button>
           </form>
       </div>
