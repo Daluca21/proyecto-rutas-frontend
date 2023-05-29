@@ -1,78 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap5.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap5.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <title>CRUD</title>
-</head>
-<body>
-
-<div class="name"> 
-    <img src=".../img/noFondologoCucutaRutas.png" class="imagenLogo" alt=""> <!-- Import debe ser "../algo" para este caso -->
-        <div class="content">   
-            <h2 style="text-align:center">Empresas</h2>
-            <div class="mi-boton-volver"> 
-            <a href="/logout"class="btn btn-success form-control">Cerrar Sesion</a>
-            </div>
-        </div> 
-</div> 
-
-
-
-<div class="container">
-    <div class="row justify-content-md-center ">
-        <div class="col col-lg-2">
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">Cerrar Sesión</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-auto">
-            <a  class="btn btn-primary" href="/sadmin/empresa/add" role="button">Agregar</a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-6">
+          <img
+            src=".../img/noFondologoCucutaRutas.png"
+            class="img-fluid imagenLogo"
+            alt="Logo"
+          />
         </div>
-        <div class="col col-lg-2">
+        <div class="col-6 text-center">
+          <h2>Empresas</h2>
+          <a href="/logout" class="btn btn-success">Cerrar Sesión</a>
         </div>
-    </div>
-    <p></p>
-    <table class="table table-primary table-striped table-bordered">
-        <% if (success) { %>
-            <div class="alert alert-primary" role="alert">
-                Tarea realizada correctamente
-            </div>
-        <% }else if(success == false){ %>
-            <div class="alert alert-primary" role="alert">
-                La tarea no se pudo realizar
-            </div>
-        <% } %>  
-        <% if (empresas) { %>
-            <tr>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col text-center">
+          <a href="/sadmin/empresa/add" class="btn btn-primary">Agregar</a>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <% if (success) { %>
+          <div class="alert alert-primary" role="alert">
+            Tarea realizada correctamente
+          </div>
+          <% } else if (success == false) { %>
+          <div class="alert alert-primary" role="alert">
+            La tarea no se pudo realizar
+          </div>
+          <% } %>
+
+          <table class="table table-primary table-striped table-bordered">
+            <thead>
+              <tr>
                 <th>Id</th>
                 <th>Nombre</th>
-                <th>Action </th>
-            </tr>
-            <% empresas.forEach(function(empresa){ %>
-                <tr>
-                    <td><%= empresa.id %></td>
-                    <td><%= empresa.nombre %></td>
-                    <td>
-                        <form method="post" action="/sadmin/empresa/delete/<%= empresa.id %>" class="inline">
-                            <input type="hidden" name="extra_submit_param" value="extra_submit_value">
-                            <button class="btn btn-primary"  type="submit" name="submit_param" value="submit_value" class="link-button">
-                                Eliminar
-                            </button>
-                        </form>
-                        <form method="post" action="/sadmin/empresa/update/<%= empresa.id %>" class="inline">
-                            <input type="hidden" name="extra_submit_param" value="extra_submit_value">
-                            <button class="btn btn-primary"  type="submit" name="submit_param" value="submit_value" class="link-button">
-                                Actualizar
-                            </button>
-                        </form>
-                    </td>
-                </tr>
-            <% }); %>
-        <% } %>
-    </table>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% if (empresas) { %> <% empresas.forEach(function(empresa) { %>
+              <tr>
+                <td><%= empresa.id %></td>
+                <td><%= empresa.nombre %></td>
+                <td>
+                  <form
+                    method="post"
+                    action="/sadmin/empresa/delete/<%= empresa.id %>"
+                    class="d-inline"
+                  >
+                    <input
+                      type="hidden"
+                      name="extra_submit_param"
+                      value="extra_submit_value"
+                    />
+                    <button
+                      type="submit"
+                      name="submit_param"
+                      value="submit_value"
+                      class="btn btn-danger"
+                    >
+                      Eliminar
+                    </button>
+                  </form>
+                  <form
+                    method="post"
+                    action="/sadmin/empresa/update/<%= empresa.id %>"
+                    class="d-inline"
+                  >
+                    <input
+                      type="hidden"
+                      name="extra_submit_param"
+                      value="extra_submit_value"
+                    />
+                    <button
+                      type="submit"
+                      name="submit_param"
+                      value="submit_value"
+                      class="btn btn-primary"
+                    >
+                      Actualizar
+                    </button>
+                  </form>
+                </td>
+              </tr>
+              <% }); %> <% } %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
