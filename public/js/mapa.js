@@ -157,6 +157,7 @@ form_add.addEventListener("submit", function (event) {
         alertElement.textContent = data.message;
         alertContainer.appendChild(alertElement);
         document.getElementById("form_add").reset();
+        document.getElementById("alertContainer").hidden = false;
       })
       .catch((error) => {
         console.error("Error:", error);

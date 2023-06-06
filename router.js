@@ -40,12 +40,14 @@ const isAdmin = (req, res, next) => {
 
 router.get("/perfil", verificarAutenticacion, (req, res) => {
   const user = req.session.user || null;
-  res.render("perfil", { usuario: user });
+  const mensaje = req.query.mensaje || null;
+  res.render("perfil", { usuario: user, mensaje: mensaje });
 });
 
 router.get("/", (req, res) => {
   const direccionRuta = "http://localhost:8080/ruta";
   const loginOn = req.session.loggedIn || null;
+  console.log("?");
   axios
     .get(direccionRuta + "/all") //Ajustar para obtener por empresa
     .then((response) => {
@@ -77,10 +79,9 @@ router.get("/admin/add", isAdmin, (req, res) => {
 router.get("/admin/dashboard", isAdmin, (req, res) => {
   const direccionRuta = "http://localhost:8080/ruta";
   const rutaData = req.body;
-  console.log(direccionRuta + "/all");
-  console.log(rutaData);
+  console.log(direccionRuta + "/all/" + req.session.user.id);
   axios
-    .get(direccionRuta + "/all") //Ajustar para obtener por empresa
+    .get(direccionRuta + "/all/" + req.session.user.id) //Ajustar para obtener por empresa
     .then((response) => {
       res.render("dashboard", { rutas: response.data });
     })
