@@ -73,7 +73,7 @@ router.get("/admin", (req, res) => {
 });
 
 router.get("/admin/add", isAdmin, (req, res) => {
-  res.render("agregar_ruta");
+  res.render("agregar_ruta", { id: req.session.id });
 });
 
 router.get("/admin/dashboard", isAdmin, (req, res) => {

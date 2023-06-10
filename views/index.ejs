@@ -95,7 +95,8 @@
           </tr>
         </thead>
         <tbody>
-          <% if (rutas) { %> <% rutas.forEach(function(ruta) { %>
+          <% if (rutas) { %> <% rutas.forEach(function(ruta) { %> <% if
+          (ruta.disponible){ %>
           <tr>
             <td
               data-search="<%= ruta.puntos.map(punto => punto.lugarCercano).join(', ') %>"
@@ -121,7 +122,7 @@
               </button>
             </td>
           </tr>
-          <% }); %> <% } %>
+          <% } %> <% }); %> <% } %>
         </tbody>
       </table>
     </div>

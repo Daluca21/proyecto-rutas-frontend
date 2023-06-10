@@ -42,10 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 $(".map-btn").click(function (e) {
   e.preventDefault();
-  if(!rutas) return;
+  if (!rutas) return;
   var rutaId = $(this).data("ruta-id");
   var ruta = rutas.find(function (ruta) {
     return ruta.id === rutaId;
@@ -98,5 +97,36 @@ $(".map-btn").click(function (e) {
         $("#" + mapContainerId).remove();
       },
     });
+  }
+});
+
+$(".hab-btn").click(function (e) {
+  e.preventDefault();
+  if (!rutas) return;
+  var rutaId = $(this).data("ruta-id");
+  var ruta = rutas.find(function (ruta) {
+    return ruta.id === rutaId;
+  });
+  if (ruta) {
+    // Crea el contenido HTML del mapa
+    ruta.disponible = !ruta.disponible;
+    const url = "http://localhost:3000/admin/habilitar";
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(ruta),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        document.getElementById("hab-" + ruta.id).textContent = ruta.disponible
+          ? "Deshabilitar"
+          : "Habilitar";
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   }
 });

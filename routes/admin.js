@@ -42,7 +42,69 @@ router.post("/add", (req, res) => {
   console.log(direccionRuta + "/add");
   console.log(rutaData);
   axios
-    .post(direccionRuta + "/add", rutaData)
+    .post(direccionRuta + "/add/" + req.session.user.id, rutaData)
+    .then((response) => {
+      res.json({ message: "Ruta guardada exitosamente" });
+    })
+    .catch((error) => {
+      res.json({
+        message: "Hubo un error al guardar la ruta, verifique la información",
+      });
+    });
+});
+
+router.post("/habilitar", (req, res) => {
+  const rutaData = req.body;
+  console.log(direccionRuta + "/habilitar");
+  console.log(rutaData);
+  axios
+    .post(direccionRuta + "/habilitar", rutaData)
+    .then((response) => {
+      res.json({ message: "Ruta actualizada exitosamente" });
+    })
+    .catch((error) => {
+      res.json({
+        message: "Hubo un error al guardar la ruta, verifique la información",
+      });
+    });
+});
+
+router.get("/update/:id", (req, res) => {
+  const id = req.params.id;
+  const rutaData = {
+    id: id,
+  };
+  axios
+    .post(direccionRuta + "/get", rutaData)
+    .then((response) => {
+      res.render("actualizar_ruta", { ruta: response.data.data });
+    })
+    .catch((error) => {
+      res.redirect("dashboard");
+    });
+});
+
+router.post("/update", (req, res) => {
+  const rutaData = req.body;
+  console.log(direccionRuta + "/update");
+  console.log(rutaData);
+  axios
+    .post(direccionRuta + "/update", rutaData)
+    .then((response) => {
+      res.json({ message: "Ruta guardada exitosamente" });
+    })
+    .catch((error) => {
+      res.json({
+        message: "Hubo un error al guardar la ruta, verifique la información",
+      });
+    });
+});
+
+router.post("/delete", (req, res) => {
+  const rutaData = req.body;
+  console.log(direccionRuta + "/delete");
+  axios
+    .post(direccionRuta + "/delete", rutaData)
     .then((response) => {
       res.json({ message: "Ruta guardada exitosamente" });
     })
