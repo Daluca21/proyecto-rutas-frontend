@@ -74,27 +74,25 @@ router.get("/empresa", isSuperAdmin, (req, res) => {
     });
 });
 
-router.post("/empresa/delete/:id", isSuperAdmin, (req, res) => {
-  const direccionEmpresas = "http://localhost:8080/empresa";
-  const userData = {
-    id: req.params.id,
-  };
-  console.log(direccion + "/delete");
+router.post("/empresa/delete", isSuperAdmin, (req, res) => {
+  const direccionEmpresa = "http://localhost:8080/empresa";
+  const empresaData = req.body;
+  console.log(direccionEmpresa + "/delete", empresaData);
   axios
-    .post(direccion + "/delete", userData)
+    .post(direccionEmpresa + "/delete", empresaData)
     .then((response) => {
       if (response.data == "Deleted") {
-        res.redirect("/empresas?success=true"); //Redirige al Dashboard
+        res.redirect("/sadmin/empresa?success=true"); //Redirige al Dashboard
       } else {
-        res.redirect("/empresas?success=false"); //Redirige al Dashboard
+        res.redirect("/sadmin/empresa?success=false"); //Redirige al Dashboard
       }
     })
     .catch((error) => {
-      res.redirect("/empresas?success=false"); //Redirige al Dashboard
+      res.redirect("/sadmin/empresa?success=false"); //Redirige al Dashboard
     });
 });
 
-router.get("/administrador/update/:id", (req, res) => {
+router.get("/administrador/update/:id", isSuperAdmin, (req, res) => {
   const direccionAdministrador = "http://localhost:8080/administrador";
   const id = req.params.id;
   const adminData = {
@@ -125,6 +123,7 @@ router.post(
       }
       return true;
     }),
+    isSuperAdmin,
   ],
   (req, res) => {
     const errors = validationResult(req);
@@ -153,20 +152,29 @@ router.post(
   }
 );
 
-router.get("/empresa/update/:id", (req, res) => {
+router.post("/empresa/update/:id", isSuperAdmin, (req, res) => {
   const direccionEmpresa = "http://localhost:8080/empresa";
-  const id = req.params.id;
-  const empresaData = {
-    id: id,
-  };
+  const empresaData = req.body;
   axios
-    .post(direccionEmpresa + "/get", empresaData)
+    .post(direccionEmpresa + "/update", empresaData)
     .then((response) => {
-      res.render("actualizar_empresa", { empresa: response.data.data });
+      res.redirect("/sadmin/empresa?success=true");
     })
     .catch((error) => {
-      res.redirect("/sadmin/empresa");
+      res.redirect("/sadmin/empresa?success=false");
     });
 });
 
+router.post("/empresa/add", isSuperAdmin, (req, res) => {
+  const direccionEmpresa = "http://localhost:8080/empresa";
+  const empresaData = req.body;
+  axios
+    .post(direccionEmpresa + "/add", empresaData)
+    .then((response) => {
+      res.redirect("/sadmin/empresa?success=true");
+    })
+    .catch((error) => {
+      res.redirect("/sadmin/empresa?success=false");
+    });
+});
 module.exports = router;
