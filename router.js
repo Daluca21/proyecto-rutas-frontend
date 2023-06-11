@@ -3,10 +3,6 @@ const router = express.Router();
 const session = require("express-session");
 const axios = require("axios");
 
-router.get("/contacto", (req, res) => {
-  res.render("contacto");
-});
-
 router.get("/registro", (req, res) => {
   const mensaje = req.query.mensaje || null;
   res.render("registro", { mensaje });
@@ -47,14 +43,68 @@ router.get("/perfil", verificarAutenticacion, (req, res) => {
 router.get("/", (req, res) => {
   const direccionRuta = "http://localhost:8080/ruta";
   const loginOn = req.session.loggedIn || null;
-  console.log("?");
   axios
     .get(direccionRuta + "/all") //Ajustar para obtener por empresa
     .then((response) => {
-      res.render("index", { rutas: response.data, loginOn });
+      const rutaData = response.data;
+      if (loginOn) {
+        const direccion =
+          "http://localhost:8080/usuario/" + req.session.user.id;
+        axios
+          .post(direccion + "/rutas")
+          .then((response) => {
+            console.log(response.data);
+            return res.render("index", {
+              rutas: rutaData,
+              loginOn,
+              rutasFavoritas: response.data,
+            });
+          })
+          .catch((error) => {
+            return res.render("index", {
+              rutas: null,
+              loginOn,
+              rutasFavoritas: [],
+            });
+          });
+      }
     })
     .catch((error) => {
-      res.render("index", { rutas: null, loginOn });
+      return res.render("index", { ruas: null, loginOn, rutasFavoritas: null });
+    });
+});
+
+router.post("/usuario/add/:id", (req, res) => {
+  const direccionRuta =
+    "http://localhost:8080/usuario/" +
+    req.session.user.id +
+    "/ruta/" +
+    req.params.id +
+    "/add";
+  axios
+    .post(direccionRuta)
+    .then((response) => {
+      res.redirect("/");
+    })
+    .catch((error) => {
+      res.redirect("/");
+    });
+});
+
+router.post("/usuario/delete/:id", (req, res) => {
+  const direccionRuta =
+    "http://localhost:8080/usuario/" +
+    req.session.user.id +
+    "/ruta/" +
+    req.params.id +
+    "/delete";
+  axios
+    .post(direccionRuta)
+    .then((response) => {
+      res.redirect("/");
+    })
+    .catch((error) => {
+      res.redirect("/");
     });
 });
 

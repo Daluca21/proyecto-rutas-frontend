@@ -92,6 +92,9 @@
             <th>Hora de fin</th>
             <th>Frecuencia</th>
             <th>Mapa</th>
+            <% if(loginOn) { %>
+            <th>Favorito</th>
+            <% } %>
           </tr>
         </thead>
         <tbody>
@@ -121,6 +124,36 @@
                 Ver Mapa
               </button>
             </td>
+            <% if(loginOn) { %>
+            <td>
+              <% if(( rutasFavoritas.find(function (rutaB) { return rutaB.id ===
+              ruta.id; }))) { %>
+              <form action="/usuario/delete/<%= ruta.id %>" method="POST">
+                <input
+                  type="hidden"
+                  id="id"
+                  name="id"
+                  value="<%= ruta.id %>"
+                  required
+                />
+
+                <input type="submit" class="btn btn-primary" value="Quitar" />
+              </form>
+              <% }else {%>
+              <form action="/usuario/add/<%= ruta.id %>" method="POST">
+                <input
+                  type="hidden"
+                  id="id"
+                  name="id"
+                  value="<%= ruta.id %>"
+                  required
+                />
+
+                <input type="submit" class="btn btn-primary" value="Agregar" />
+              </form>
+              <% }%>
+            </td>
+            <% } %>
           </tr>
           <% } %> <% }); %> <% } %>
         </tbody>
