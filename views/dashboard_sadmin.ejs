@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,26 +25,44 @@
     <title>CRUD</title>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src=".../img/noFondologoCucutaRutas.png"
-            class="imagenLogo"
-            alt=""
-          />
-        </a>
-        <h1 class="navbar-text mx-auto">Dashboard</h1>
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="#">Botón 1</a>
-          <a
-            class="btn btn-primary"
-            href="/logout"
-            class="btn btn-success form-control"
-            >Cerrar Sesion</a
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container header-container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../img/noFondologoCucutaRutas.png"
+              alt="Logo"
+              width="50"
+              height="50"
+            />
+          </a>
+          <span class="navbar-text header-text text-white"
+            >Dashboard SUPER administrador</span
           >
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Menu
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" type="button" href="/logout">
+                  Cerrar Sesion
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="/perfil">
+                  Perfil
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <div class="container">
       <div class="row mt-5">
@@ -52,7 +71,7 @@
             <div class="card-body text-center">
               <h2 class="card-title">Empresas</h2>
               <p class="card-text">Realiza ajuste a las empresas creadas.</p>
-              <a href="/sadmin/empresas" class="btn btn-primary"
+              <a href="/sadmin/empresa" class="btn btn-primary"
                 >CRUD Empresas</a
               >
             </div>
@@ -63,7 +82,7 @@
             <div class="card-body text-center">
               <h2 class="card-title">Administradores</h2>
               <p class="card-text">Panel de control de administradores.</p>
-              <a href="/sadmin/administradores" class="btn btn-primary"
+              <a href="/sadmin/administrador" class="btn btn-primary"
                 >CRUD Administradores</a
               >
             </div>

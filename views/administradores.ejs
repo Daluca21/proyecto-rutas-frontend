@@ -79,26 +79,7 @@
                 <td><%= administrador.correo %></td>
                 <td>
                   <form
-                    method="post"
-                    action="/sadmin/administrador/delete/<%= administrador.id %>"
-                    class="d-inline"
-                  >
-                    <input
-                      type="hidden"
-                      name="extra_submit_param"
-                      value="extra_submit_value"
-                    />
-                    <button
-                      type="submit"
-                      name="submit_param"
-                      value="submit_value"
-                      class="btn btn-danger"
-                    >
-                      Eliminar
-                    </button>
-                  </form>
-                  <form
-                    method="post"
+                    method="get"
                     action="/sadmin/administrador/update/<%= administrador.id %>"
                     class="d-inline"
                   >
@@ -113,7 +94,7 @@
                       value="submit_value"
                       class="btn btn-primary"
                     >
-                      Actualizar
+                      Actualizar y eliminar
                     </button>
                   </form>
                 </td>
