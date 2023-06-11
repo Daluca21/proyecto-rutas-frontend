@@ -111,6 +111,10 @@ router.get("/administrador/update/:id", isSuperAdmin, (req, res) => {
     });
 });
 
+router.get("/administrador/add", isSuperAdmin, (req, res) => {
+  res.render("agregar_administrador", { success: null });
+});
+
 router.post(
   "/administrador/update/:id",
   [
@@ -146,6 +150,44 @@ router.post(
       .catch((error) => {
         res.render("actualizar_administrador", {
           administrador: req.body,
+          mensaje: "Hubo un error verifique la informacion",
+        });
+      });
+  }
+);
+
+router.post(
+  "/administrador/add",
+  [
+    body("hashPassword", "La contraseña es requerida").notEmpty(),
+    body("confirmPassword").custom((value, { req }) => {
+      if (value !== req.body.hashPassword) {
+        throw new Error(
+          "La confirmación de contraseña no coincide con la contraseña"
+        );
+      }
+      return true;
+    }),
+    isSuperAdmin,
+  ],
+  (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.render("agregar_administrador", {
+        mensaje: "La confirmación de contraseña no coincide con la contraseña",
+      });
+    }
+    const direccionAdministrador = "http://localhost:8080/administrador";
+    const adminData = req.body;
+    axios
+      .post(direccionAdministrador + "/add", adminData)
+      .then((response) => {
+        res.render("agregar_administrador", {
+          mensaje: "Actualizado correctamente",
+        });
+      })
+      .catch((error) => {
+        res.render("agregar_administrador", {
           mensaje: "Hubo un error verifique la informacion",
         });
       });
