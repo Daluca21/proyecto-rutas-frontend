@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .catch((error) => {
       console.error("Error al cargar el archivo JSON:", error);
     });
-  const url = "http://localhost:8080/ruta/all";
+  const url = "https://apprutascucuta.azurewebsites.net/ruta/all";
   fetch(url, {
     method: "POST",
   })

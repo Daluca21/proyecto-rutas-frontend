@@ -1,8 +1,8 @@
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();
-const direccion = "http://localhost:8080/administrador"; //Url para realizar la consulta a la base de datos
-const direccionRuta = "http://localhost:8080/ruta"; //Url para realizar la consulta a la base de datos
+const direccion = "https://apprutascucuta.azurewebsites.net/administrador"; //Url para realizar la consulta a la base de datos
+const direccionRuta = "https://apprutascucuta.azurewebsites.net/ruta"; //Url para realizar la consulta a la base de datos
 const session = require("express-session");
 
 router.post("/", (req, res) => {

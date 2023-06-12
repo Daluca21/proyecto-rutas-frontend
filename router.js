@@ -41,7 +41,7 @@ router.get("/perfil", verificarAutenticacion, (req, res) => {
 });
 
 router.get("/", (req, res) => {
-  const direccionRuta = "http://localhost:8080/ruta";
+  const direccionRuta = "https://apprutascucuta.azurewebsites.net/ruta";
   const loginOn = req.session.loggedIn || null;
   axios
     .get(direccionRuta + "/all") //Ajustar para obtener por empresa
@@ -49,7 +49,8 @@ router.get("/", (req, res) => {
       const rutaData = response.data;
       if (loginOn) {
         const direccion =
-          "http://localhost:8080/usuario/" + req.session.user.id;
+          "https://apprutascucuta.azurewebsites.net/usuario/" +
+          req.session.user.id;
         axios
           .post(direccion + "/rutas")
           .then((response) => {
@@ -76,7 +77,7 @@ router.get("/", (req, res) => {
 
 router.post("/usuario/add/:id", (req, res) => {
   const direccionRuta =
-    "http://localhost:8080/usuario/" +
+    "https://apprutascucuta.azurewebsites.net/usuario/" +
     req.session.user.id +
     "/ruta/" +
     req.params.id +
@@ -93,7 +94,7 @@ router.post("/usuario/add/:id", (req, res) => {
 
 router.post("/usuario/delete/:id", (req, res) => {
   const direccionRuta =
-    "http://localhost:8080/usuario/" +
+    "https://apprutascucuta.azurewebsites.net/usuario/" +
     req.session.user.id +
     "/ruta/" +
     req.params.id +
@@ -127,7 +128,7 @@ router.get("/admin/add", isAdmin, (req, res) => {
 });
 
 router.get("/admin/dashboard", isAdmin, (req, res) => {
-  const direccionRuta = "http://localhost:8080/ruta";
+  const direccionRuta = "https://apprutascucuta.azurewebsites.net/ruta";
   const rutaData = req.body;
   console.log(direccionRuta + "/all/" + req.session.user.id);
   axios

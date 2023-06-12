@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();
-const direccion = "http://localhost:8080/administrador"; //Url para realizar la consulta a la base de datos
+const direccion = "https://apprutascucuta.azurewebsites.net/administrador"; //Url para realizar la consulta a la base de datos
 const { body, validationResult } = require("express-validator");
 
 const isSuperAdmin = (req, res, next) => {
@@ -20,7 +20,8 @@ router.get("/", isSuperAdmin, (req, res) => {
 });
 
 router.get("/administrador", isSuperAdmin, (req, res) => {
-  const direccionAdministradores = "http://localhost:8080/administrador/all";
+  const direccionAdministradores =
+    "https://apprutascucuta.azurewebsites.net/administrador/all";
   console.log(direccionAdministradores);
   axios
     .get(direccionAdministradores) //Ajustar para obtener por empresa
@@ -61,7 +62,8 @@ router.post("/administrador/delete", isSuperAdmin, (req, res) => {
 });
 
 router.get("/empresa", isSuperAdmin, (req, res) => {
-  const direccionEmpresa = "http://localhost:8080/empresa/all";
+  const direccionEmpresa =
+    "https://apprutascucuta.azurewebsites.net/empresa/all";
   console.log(direccionEmpresa);
   axios
     .get(direccionEmpresa) //Ajustar para obtener por empresa
@@ -75,7 +77,7 @@ router.get("/empresa", isSuperAdmin, (req, res) => {
 });
 
 router.post("/empresa/delete", isSuperAdmin, (req, res) => {
-  const direccionEmpresa = "http://localhost:8080/empresa";
+  const direccionEmpresa = "https://apprutascucuta.azurewebsites.net/empresa";
   const empresaData = req.body;
   console.log(direccionEmpresa + "/delete", empresaData);
   axios
@@ -93,7 +95,8 @@ router.post("/empresa/delete", isSuperAdmin, (req, res) => {
 });
 
 router.get("/administrador/update/:id", isSuperAdmin, (req, res) => {
-  const direccionAdministrador = "http://localhost:8080/administrador";
+  const direccionAdministrador =
+    "https://apprutascucuta.azurewebsites.net/administrador";
   const id = req.params.id;
   const adminData = {
     id: id,
@@ -137,7 +140,8 @@ router.post(
         mensaje: "La confirmación de contraseña no coincide con la contraseña",
       });
     }
-    const direccionAdministrador = "http://localhost:8080/administrador";
+    const direccionAdministrador =
+      "https://apprutascucuta.azurewebsites.net/administrador";
     const adminData = req.body;
     axios
       .post(direccionAdministrador + "/update", adminData)
@@ -177,7 +181,8 @@ router.post(
         mensaje: "La confirmación de contraseña no coincide con la contraseña",
       });
     }
-    const direccionAdministrador = "http://localhost:8080/administrador";
+    const direccionAdministrador =
+      "https://apprutascucuta.azurewebsites.net/administrador";
     const adminData = req.body;
     axios
       .post(direccionAdministrador + "/add", adminData)
@@ -195,7 +200,7 @@ router.post(
 );
 
 router.post("/empresa/update/:id", isSuperAdmin, (req, res) => {
-  const direccionEmpresa = "http://localhost:8080/empresa";
+  const direccionEmpresa = "https://apprutascucuta.azurewebsites.net/empresa";
   const empresaData = req.body;
   axios
     .post(direccionEmpresa + "/update", empresaData)
@@ -208,7 +213,7 @@ router.post("/empresa/update/:id", isSuperAdmin, (req, res) => {
 });
 
 router.post("/empresa/add", isSuperAdmin, (req, res) => {
-  const direccionEmpresa = "http://localhost:8080/empresa";
+  const direccionEmpresa = "https://apprutascucuta.azurewebsites.net/empresa";
   const empresaData = req.body;
   axios
     .post(direccionEmpresa + "/add", empresaData)

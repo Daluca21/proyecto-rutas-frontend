@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error al cargar el archivo JSON:", error);
     });
 
-  const url = "http://localhost:8080/ruta/all";
+  const url = "https://apprutascucuta.azurewebsites.net/ruta/all";
   fetch(url, {
     method: "POST",
   })
@@ -110,7 +110,7 @@ $(".hab-btn").click(function (e) {
   if (ruta) {
     // Crea el contenido HTML del mapa
     ruta.disponible = !ruta.disponible;
-    const url = "http://localhost:3000/admin/habilitar";
+    const url = "https://dlc-buses.onrender.comadmin/habilitar";
     fetch(url, {
       method: "POST",
       headers: {

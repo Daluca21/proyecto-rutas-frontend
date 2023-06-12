@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();
-const direccion = "http://localhost:8080/usuario";
+const direccion = "https://apprutascucuta.azurewebsites.net/usuario";
 const session = require("express-session");
 const { body, validationResult } = require("express-validator");
 
