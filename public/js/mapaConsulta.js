@@ -110,7 +110,7 @@ $(".hab-btn").click(function (e) {
   if (ruta) {
     // Crea el contenido HTML del mapa
     ruta.disponible = !ruta.disponible;
-    const url = "https://dlc-buses.onrender.comadmin/habilitar";
+    const url = "https://dlc-buses.onrender.com/admin/habilitar";
     fetch(url, {
       method: "POST",
       headers: {
