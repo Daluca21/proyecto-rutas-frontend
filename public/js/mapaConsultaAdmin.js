@@ -7,6 +7,9 @@ import TileLayer from "https://cdn.skypack.dev/ol/layer/Tile.js";
 import { fromLonLat } from "https://cdn.skypack.dev/ol/proj";
 import LineString from "https://cdn.skypack.dev/ol/geom/LineString";
 import Feature from "https://cdn.skypack.dev/ol/Feature";
+import Style from "https://cdn.skypack.dev/ol/style/Style.js";
+import Stroke from "https://cdn.skypack.dev/ol/style/Stroke.js";
+
 var barrios;
 var rutas;
 const osmLayer = new TileLayer({
@@ -81,6 +84,15 @@ $(".map-btn").click(function (e) {
           geometry: new LineString(coordenadas),
         });
 
+        var style = new Style({
+          stroke: new Stroke({
+            color: "red", // Cambia el color de la línea a rojo
+            width: 3, // Cambia el ancho de la línea a 2 píxeles
+          }),
+        });
+
+        route.setStyle(style);
+        
         // Crea una capa vectorial para la ruta y agrega la ruta a la capa
         var vectorLayer = new VectorLayer({
           source: new VectorSource({

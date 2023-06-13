@@ -11,6 +11,10 @@ import TileLayer from "https://cdn.skypack.dev/ol/layer/Tile.js";
 import { fromLonLat } from "https://cdn.skypack.dev/ol/proj";
 import { toLonLat } from "https://cdn.skypack.dev/ol/proj";
 import { squaredDistance } from "https://cdn.skypack.dev/ol/coordinate";
+import LineString from "https://cdn.skypack.dev/ol/geom/LineString";
+import Feature from "https://cdn.skypack.dev/ol/Feature";
+import Style from "https://cdn.skypack.dev/ol/style/Style.js";
+import Stroke from "https://cdn.skypack.dev/ol/style/Stroke.js";
 
 var barrios;
 
@@ -43,6 +47,15 @@ var drawLayer = new VectorLayer({
   source: new VectorSource({ wrapX: false }),
   projection: osmLayer.getSource().getProjection(),
 });
+
+var style = new Style({
+  stroke: new Stroke({
+    color: "red", // Cambia el color de la línea a rojo
+    width: 3, // Cambia el ancho de la línea a 2 píxeles
+  }),
+});
+
+drawLayer.setStyle(style);
 
 //Inicializo el mapa, en layers agrego la capa osmLayer y drawLayer
 const map = new Map({

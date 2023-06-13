@@ -16,6 +16,7 @@ import LineString from "https://cdn.skypack.dev/ol/geom/LineString";
 import Feature from "https://cdn.skypack.dev/ol/Feature";
 import Style from "https://cdn.skypack.dev/ol/style/Style.js";
 import Stroke from "https://cdn.skypack.dev/ol/style/Stroke.js";
+
 var barrios;
 var rutas;
 var rutaId;
