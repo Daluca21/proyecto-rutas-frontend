@@ -70,7 +70,7 @@ router.get("/", (req, res) => {
           });
       } else {
         return res.render("index", {
-          rutas: null,
+          rutas: rutaData,
           loginOn,
           rutasFavoritas: null,
         });
