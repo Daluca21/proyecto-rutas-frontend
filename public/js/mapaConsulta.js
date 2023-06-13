@@ -110,7 +110,8 @@ $(".hab-btn").click(function (e) {
   if (ruta) {
     // Crea el contenido HTML del mapa
     ruta.disponible = !ruta.disponible;
-    const url = "https://dlc-buses.onrender.com/admin/habilitar";
+    const url =
+      "https://apprutascucutafrontend.azurewebsites.net/admin/habilitar";
     fetch(url, {
       method: "POST",
       headers: {
