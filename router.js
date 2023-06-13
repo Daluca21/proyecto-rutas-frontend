@@ -68,10 +68,20 @@ router.get("/", (req, res) => {
               rutasFavoritas: [],
             });
           });
+      } else {
+        return res.render("index", {
+          rutas: null,
+          loginOn,
+          rutasFavoritas: null,
+        });
       }
     })
     .catch((error) => {
-      return res.render("index", { ruas: null, loginOn, rutasFavoritas: null });
+      return res.render("index", {
+        rutas: null,
+        loginOn,
+        rutasFavoritas: null,
+      });
     });
 });
 

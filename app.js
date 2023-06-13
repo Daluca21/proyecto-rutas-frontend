@@ -5,6 +5,7 @@ const login = require("./routes/login");
 const perfil = require("./routes/perfil");
 const admin = require("./routes/admin");
 const sadmin = require("./routes/sadmin");
+const ruta = require("./routes/ruta");
 const session = require("express-session");
 
 app.use(
@@ -32,6 +33,7 @@ app.use("/login", login);
 app.use("/perfil", perfil);
 app.use("/admin", admin);
 app.use("/sadmin", sadmin);
+app.use("/ruta", ruta);
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("SERVER corriendo en http://localhost:3000");
