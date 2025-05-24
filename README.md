@@ -1,16 +1,64 @@
- rutas
-Video Demo:  <https://www.youtube.com/watch?v=lE68aQDY8Qc&feature=youtu.be>
-Description: Este proyecto es una aplicación web completa y fácil de usar, diseñada para ayudar a los usuarios a visualizar e interactuar con diversas rutas de forma clara y eficiente. El
-objetivo principal de la aplicación es ofrecer una plataforma donde los usuarios puedan explorar diferentes tipos de rutas —como recorridos de transporte público, rutas de entrega o circuitos
-turísticos— a través de una interfaz de mapa interactiva.
-Los usuarios pueden buscar rutas específicas, visualizar información detallada sobre cada tramo o parada, y seguir visualmente todo el recorrido. La interfaz está diseñada pensando en la usabilidad, asegurando que personas con distintos niveles de experiencia puedan navegar por el sistema sin dificultad. El diseño es adaptable (responsive), lo que permite un acceso fluido desde distintos dispositivos, como computadoras, tabletas y teléfonos móviles.
+# Aplicación Web para Visualización de Rutas
 
-Además de la visualización de rutas, la aplicación puede incluir funcionalidades como filtros por categoría o ubicación, visualización de tiempos o distancias estimadas, y resaltado de puntos de interés a lo largo del recorrido. Esto la convierte en una herramienta útil para la planificación urbana, la coordinación logística, fines educativos o simplemente para enriquecer la experiencia de explorar nuevos lugares.
+## Video Demo
 
-En resumen, la Aplicación Web para Visualización de Rutas tiene como objetivo ofrecer una forma intuitiva y visualmente atractiva de comprender y explorar rutas, adaptándose tanto a usuarios casuales como a aplicaciones profesionales.
+Puedes ver una demostración en video del funcionamiento de la aplicación en el siguiente enlace:
+<https://www.youtube.com/watch?v=lE68aQDY8Qc&feature=youtu.be>
 
-Author
-santiago Alexis celis caballero
-Roberth david Mondagron
-Luis alejandro fonseca
+---
 
+## Descripción General
+
+Este proyecto es una aplicación web completa, interactiva y fácil de usar, diseñada para permitir a los usuarios visualizar e interactuar con una amplia variedad de rutas geográficas a través de una interfaz gráfica basada en mapas. La herramienta está orientada a resolver un problema común en contextos como el transporte público, la logística de entregas, los recorridos turísticos y la planificación urbana: la dificultad para comprender, optimizar y comunicar trayectos de forma visual y accesible.
+
+El objetivo principal de esta aplicación es ofrecer una plataforma moderna, intuitiva y responsiva donde los usuarios puedan explorar rutas —como líneas de autobús, recorridos de entrega, rutas escolares o itinerarios turísticos— a través de un entorno visual claro, enriquecido con información útil y elementos de navegación accesibles. La herramienta está pensada tanto para usuarios casuales como para profesionales que necesiten gestionar o comunicar información relacionada con trayectos geográficos.
+
+---
+
+## Características Principales
+
+- **Visualización interactiva de rutas** mediante mapas integrados con tecnología web moderna.
+- **Búsqueda de rutas** por nombre, categoría o ubicación geográfica.
+- **Información detallada por segmento** o parada dentro de cada ruta.
+- **Interfaz adaptable** que se ajusta automáticamente a distintos dispositivos, incluyendo móviles, tabletas y computadoras de escritorio.
+- **Filtros avanzados** para seleccionar rutas por tipo, propósito, duración o punto de inicio.
+- **Marcado de puntos de interés** (como museos, estaciones, centros de distribución, etc.) a lo largo del recorrido.
+- **Visualización de tiempos estimados** y distancias totales de la ruta.
+- **Soporte multilingüe** (fácil de integrar) para adaptarse a públicos diversos.
+
+---
+
+## Casos de Uso
+
+La aplicación puede ser empleada en múltiples contextos, entre ellos:
+
+- **Planificación de rutas de transporte público:** Visualizar y comunicar trayectos de buses, metro o trenes de manera clara para usuarios y planificadores.
+- **Gestión logística y de entregas:** Ayudar a empresas a optimizar y presentar rutas de distribución o recolección.
+- **Turismo y cultura:** Mostrar recorridos recomendados por ciudades, zonas históricas, museos o parques naturales.
+- **Educación:** Ser usada como herramienta didáctica para enseñar geografía, planificación urbana, o análisis de datos espaciales.
+
+Cada caso de uso se adapta a través de filtros y configuraciones específicas, permitiendo una experiencia personalizada sin requerir conocimientos técnicos por parte del usuario final.
+
+---
+
+## Tecnologías Utilizadas
+
+Para el desarrollo de esta aplicación, se ha utilizado un stack tecnológico moderno y robusto, que incluye:
+
+- **Frontend:** HTML5, CSS3, JavaScript, y librerías como Leaflet o Mapbox para la visualización cartográfica.
+- **Backend:** Frameworks como Flask o Express.js para manejar la lógica del servidor y las peticiones HTTP.
+- **Bases de datos:** PostgreSQL (con soporte para PostGIS) para almacenar rutas geográficas y datos relacionados.
+- **APIs de mapas:** Google Maps API o Mapbox API, para la integración de los mapas y servicios geoespaciales.
+- **Control de versiones:** Git y GitHub para el manejo colaborativo del código fuente.
+- **Otros:** Bootstrap o TailwindCSS para los estilos, y herramientas como Docker para contenerización del entorno de desarrollo.
+
+---
+
+## Instalación y Uso
+
+A continuación se presentan los pasos para instalar y ejecutar la aplicación localmente:
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/visualizador-rutas.git
+   cd visualizador-rutas
