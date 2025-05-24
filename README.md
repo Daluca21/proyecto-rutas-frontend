@@ -54,11 +54,17 @@ Para el desarrollo de esta aplicación, se ha utilizado un stack tecnológico mo
 
 ---
 
-## Instalación y Uso
+## Integrantes del Proyecto
 
-A continuación se presentan los pasos para instalar y ejecutar la aplicación localmente:
+Este proyecto fue desarrollado por un equipo de estudiantes comprometidos y apasionados por la tecnología y la solución de problemas mediante el uso de herramientas digitales. Cada integrante asumió roles clave durante el desarrollo del sistema, incluyendo análisis, codificación, pruebas, documentación y presentación.
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/visualizador-rutas.git
-   cd visualizador-rutas
+- **Santiago Alexis Celis Caballero**
+  Encargado del diseño de la interfaz de usuario y la experiencia del usuario (UI/UX). También colaboró en la integración de los mapas interactivos y en el diseño responsivo de la aplicación.
+
+- **Roberth David Mondragón**
+  Responsable del backend y la lógica de negocio. Implementó la conexión con bases de datos y el procesamiento de datos geoespaciales para garantizar un funcionamiento eficiente y seguro de la plataforma.
+
+- **Luis Alejandro Fonseca**
+  Se encargó de la documentación del proyecto, pruebas funcionales, control de calidad y la integración del video demostrativo. También participó activamente en las decisiones de arquitectura del sistema.
+
+El trabajo colaborativo, la comunicación constante y el compromiso con la calidad fueron fundamentales para llevar a cabo este proyecto.
