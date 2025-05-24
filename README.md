@@ -47,10 +47,9 @@ Para el desarrollo de esta aplicación, se ha utilizado un stack tecnológico mo
 
 - **Frontend:** HTML5, CSS3, JavaScript, y librerías como Leaflet o Mapbox para la visualización cartográfica.
 - **Backend:** Frameworks como Flask o Express.js para manejar la lógica del servidor y las peticiones HTTP.
-- **Bases de datos:** PostgreSQL (con soporte para PostGIS) para almacenar rutas geográficas y datos relacionados.
 - **APIs de mapas:** Google Maps API o Mapbox API, para la integración de los mapas y servicios geoespaciales.
 - **Control de versiones:** Git y GitHub para el manejo colaborativo del código fuente.
-- **Otros:** Bootstrap o TailwindCSS para los estilos, y herramientas como Docker para contenerización del entorno de desarrollo.
+- **Otros:** Bootstrap o TailwindCSS para los estilos.
 
 ---
 
